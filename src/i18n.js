@@ -26,7 +26,7 @@ export const translations = {
         { value: '3+', label: 'Years of Study' },
         { value: '10+', label: 'Projects' },
         { value: '5', label: 'Languages' },
-        { value: '2', label: 'Internships' },
+        { value: '1', label: 'Internship' },
       ],
     },
     projects: {
@@ -121,7 +121,7 @@ export const translations = {
         { value: '3+', label: '學習年限' },
         { value: '10+', label: '完成項目' },
         { value: '5', label: '掌握語言' },
-        { value: '2', label: '實習經歷' },
+        { value: '1', label: '實習經歷' },
       ],
     },
     projects: {

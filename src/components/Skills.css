@@ -8,8 +8,7 @@
 }
 
 .skills-header .section-subtitle {
-  max-width: none;
-  white-space: nowrap;
+  max-width: 600px;
 }
 
 .skills-grid {
