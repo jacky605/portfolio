@@ -32,7 +32,7 @@ export default function About() {
           <div className="about-visual">
             <div className="about-avatar-frame">
               <div className="about-avatar">
-                <img src="/programmer-icon.png" alt="Kwok Wang Man" className="about-avatar-img" />
+                <img src="/portfolio/programmer-icon.png" alt="Kwok Wang Man" className="about-avatar-img" />
               </div>
             </div>
             <div className="about-contact-card">
