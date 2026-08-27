@@ -124,3 +124,39 @@
   font-weight: 500;
   color: var(--text-secondary);
 }
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 80px 0;
+  }
+  .projects-header {
+    margin-bottom: 40px;
+  }
+  .project-card {
+    grid-template-columns: 1fr;
+  }
+  .project-card-body {
+    padding: 24px;
+  }
+  .project-card-number {
+    font-size: 40px;
+  }
+  .project-card-title {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects {
+    padding: 60px 0;
+  }
+  .project-card-body {
+    padding: 20px;
+  }
+  .project-card-title {
+    font-size: 20px;
+  }
+  .project-card-description {
+    font-size: 14px;
+  }
+}

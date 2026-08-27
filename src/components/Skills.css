@@ -57,3 +57,33 @@
   color: var(--text-secondary);
   line-height: 1.7;
 }
+
+@media (max-width: 768px) {
+  .skills {
+    padding: 80px 0;
+  }
+  .skills-header {
+    margin-bottom: 40px;
+  }
+  .skills-header .section-subtitle {
+    white-space: normal;
+  }
+  .skills-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .skill-card {
+    padding: 28px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills {
+    padding: 60px 0;
+  }
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+  .skill-card {
+    padding: 24px 16px;
+  }
+}

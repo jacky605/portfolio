@@ -117,3 +117,44 @@
   color: var(--text-muted);
   border-top: 1px solid var(--border-color);
 }
+
+@media (max-width: 768px) {
+  .contact-title {
+    font-size: 40px;
+  }
+  .contact-description {
+    font-size: 16px;
+    padding: 0 16px;
+  }
+  .contact-email {
+    padding: 14px 28px;
+    font-size: 14px;
+  }
+  .contact-glow {
+    width: 400px;
+    height: 400px;
+  }
+  .contact-inner .section-label {
+    font-size: 14px;
+    letter-spacing: 4px;
+  }
+  .contact-footer {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    padding: 24px 20px 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-title {
+    font-size: 32px;
+  }
+  .contact-description {
+    font-size: 14px;
+  }
+  .contact-email {
+    padding: 12px 20px;
+    font-size: 13px;
+  }
+}

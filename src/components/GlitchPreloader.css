@@ -102,3 +102,23 @@
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
 }
+
+@media (max-width: 768px) {
+  .glitch-line-completed,
+  .glitch-line-active {
+    font-size: 48px;
+  }
+  .glitch-cursor {
+    height: 48px;
+  }
+}
+
+@media (max-width: 480px) {
+  .glitch-line-completed,
+  .glitch-line-active {
+    font-size: 32px;
+  }
+  .glitch-cursor {
+    height: 32px;
+  }
+}
