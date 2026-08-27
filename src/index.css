@@ -24,6 +24,8 @@
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
@@ -33,6 +35,8 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: 'kern' 1, 'liga' 1;
 }
 
 img {
@@ -88,6 +92,7 @@ button {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 .btn-primary {
